@@ -1,70 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <title>Topic Preview by VSEphpbb</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <title>Topic preview by VSEphpbb</title>
   </head>
-
   <body>
-    <header>
-      <div class="inner">
-        <h1>Topic preview</h1>
-        <h2>Topic Preview hover effect for phpBB3</h2>
-        <a href="https://github.com/VSEphpbb/topic_preview" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
-
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h3>
+    <div class="wrapper">
+      <header>
+        <h1>Topic Preview</h1>
+        <p>Topic Preview hover effect for phpBB3</p>
+        <p class="view"><a href="https://github.com/VSEphpbb/topic_preview">View the Project on GitHub <small>VSEphpbb/topic_preview</small></a></p>
+        <ul>
+          <li><a href="https://github.com/VSEphpbb/topic_preview/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/VSEphpbb/topic_preview/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/VSEphpbb/topic_preview">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
 <a name="topic-preview-for-phpbb3" class="anchor" href="#topic-preview-for-phpbb3"><span class="octicon octicon-link"></span></a>Topic Preview for phpBB3</h3>
 
-<p>This is a MOD for phpBB3 that will display an excerpt from the first post of a topic when the user hovers their mouse over the topic's title. Topic previews are displayed using the browser's built-in tooltip ability. The length of text shown in the preview can be defined in the Admin Control Panel. Forum members can also disable the topic previews if they prefer not to see them.</p>
-
-<p>Topic Preview for phpBB3 is much more simplified than other similar MODs (no javascript or css needed), and is designed to mimic the vBulletin method. However, optional add-ons are included for more stylized topic previews using jQuery and CSS.</p>
+<p>This is a MOD for phpBB3 that will display a short excerpt of text from the first post of a topic when the user hovers their mouse over the topic's title. The default mode uses the browser's built-in tooltip. The all new enhanced jQuery theme can also show the last post preview, display user avatars and is highly customizable.</p>
 
 <blockquote>
 <p>Current valid release available from phpBB:
 <a href="https://www.phpbb.com/customise/db/mod/topic_preview/">https://www.phpbb.com/customise/db/mod/topic_preview/</a></p>
 </blockquote>
 
-<p><img src="https://www.phpbb.com/customise/db/download/id_59895" alt="Topic Preview for phpBB3 screenshot"></p>
+<p><img src="https://www.phpbb.com/customise/db/download/id_93316" alt="Topic Preview for phpBB3 screenshot"></p>
 
 <h3>
 <a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h3>
 
 <ul>
-<li>Let your visitors peek at what's inside a topic before they click on it!</li>
-<li>Uses the browser's built-in tooltip (no javascript or css needed)</li>
-<li>The last word in the tooltip will not be cut off</li>
-<li>Hover the mouse anywhere in the topic's title row to see the preview (Prosilver styles only)</li>
-<li>Topic previews appear in new topics, your topics, unanswered topics, search results, etc.</li>
+<li>Let your visitors peek at what's inside a topic before they click on it.</li>
+<li>Default mode uses the browser's built-in tooltip (no javascript or css needed)</li>
+<li>Enhanced jQuery theme can display user avatars and both first and last posts</li>
+<li>The last word in the topic preview will not be cut off and is followed by an ellipsis</li>
 <li>Smileys are displayed as text :)</li>
 <li>BBcode tags and URL links are removed for a cleaner text-only appearance</li>
-<li>Option to set the topic preview's character limit or disable the MOD</li>
-<li>Option to define BBcodes whose contents you want removed from the Topic Preview</li>
-<li>User option for users to disable the feature</li>
+<li>Admin option to set the length of text shown in the preview (or disable the MOD)</li>
+<li>Admin option to define BBcodes whose contents are removed from the topic preview</li>
+<li>User option allows users to disable the feature</li>
 <li>Does not significantly impact server load (no additional db queries)</li>
 <li>Prosilver and Subsilver2 compatible</li>
-<li>Add-ons for several Topic Preview themes (TipTip, qTip2, mbTooltip)</li>
-<li>Works with with Precise Similar Topics (optional)</li>
-<li>Works with with Board3 Portal (optional)</li>
-<li>Works with with NV Recent Topics (optional)</li>
-<li>Supports English, Czech, Dutch, German, Italian, Polish, Romanian, Spanish</li>
+<li>Supports right-to-left languages</li>
 <li>Supports AutoMOD installation</li>
+<li>Works with phpBB 3.0.6 or newer</li>
 </ul><h3>
+<a name="optional-add-ons-with-other-mods" class="anchor" href="#optional-add-ons-with-other-mods"><span class="octicon octicon-link"></span></a>Optional Add-Ons with other MODs:</h3>
+
+<ul>
+<li>Add-on for Precise Similar Topics II MOD (optional)</li>
+<li>Add-on for Board3 Portal MOD (optional)</li>
+<li>Add-on for NV Recent Topics MOD (optional)</li>
+</ul><h3>
+<a name="languages-supported" class="anchor" href="#languages-supported"><span class="octicon octicon-link"></span></a>Languages supported:</h3>
+
+<p>English, Czech, Dutch, French, German, Italian, Polish, Romanian, Spanish</p>
+
+<h3>
 <a name="awards" class="anchor" href="#awards"><span class="octicon octicon-link"></span></a>Awards</h3>
 
 <p>Featured MOD of the Week in the phpBB Weekly Podcast, episode #143.</p>
@@ -84,25 +89,13 @@
 
 <p>Support for this MOD is available through phpBB's Customisation Database:
 <a href="https://www.phpbb.com/customise/db/mod/topic_preview/support/">https://www.phpbb.com/customise/db/mod/topic_preview/support/</a></p>
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://github.com/VSEphpbb/topic_preview/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/VSEphpbb/topic_preview/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/VSEphpbb/topic_preview"></a> is maintained by <a href="https://github.com/VSEphpbb">VSEphpbb</a>.</p>
-
-          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
+      </section>
     </div>
-
-  
+    <footer>
+      <p>Project maintained by <a href="https://github.com/VSEphpbb">VSEphpbb</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
   </body>
 </html>
