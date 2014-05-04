@@ -26,6 +26,13 @@
 		</installation>
 		<history>
 			<entry>
+				<date>2014-05-04</date>
+				<rev-version>2.0.2</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[Remove hard-coded v from version number displayed in the Topic Preview ACP page]]></change>
+				</changelog>
+			</entry>
+			<entry>
 				<date>2014-03-25</date>
 				<rev-version>2.0.1</rev-version>
 				<changelog lang="en">
