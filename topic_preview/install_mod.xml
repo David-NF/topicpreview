@@ -190,6 +190,7 @@
 			<link type="contrib" href="contrib/upgrade/1_0_9_to_2_0_2.xml" lang="en">Upgrade: from 1.0.9 to 2.0.2</link>
 			<link type="contrib" href="contrib/upgrade/1_0_10_to_2_0_2.xml" lang="en">Upgrade: from 1.0.10 to 2.0.2</link>
 			<link type="contrib" href="contrib/upgrade/2_0_0_to_2_0_2.xml" lang="en">Upgrade: from 2.0.0 to 2.0.2</link>
+			<link type="contrib" href="contrib/upgrade/2_0_1_to_2_0_2.xml" lang="en">Upgrade: from 2.0.1 to 2.0.2</link>
 			<link type="uninstall" href="contrib/uninstall.xml" lang="en">Uninstall Topic Preview</link>
 		</link-group>
 	</header>
