@@ -1,0 +1,10 @@
+{
+	"unstable": {
+		"2.1": {
+			"current": "2.1.0-b1",
+			"announcement": "https://github.com/VSEphpbb/topicpreview/releases/tag/v2.1.0-b1",
+			"eol": null,
+			"security": false
+		}
+	}
+}
