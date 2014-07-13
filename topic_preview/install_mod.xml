@@ -176,6 +176,7 @@
 			<link type="language" href="contrib/languages/pl.xml" lang="en">Polish Language Pack</link>
 			<link type="language" href="contrib/languages/ro.xml" lang="en">Romanian Language Pack</link>
 			<link type="language" href="contrib/languages/es.xml" lang="en">Spanish Language Pack</link>
+			<link type="language" href="contrib/languages/sv.xml" lang="en">Swedish Language Pack</link>
 			<link type="contrib" href="contrib/addons/addon_ucp.xml" lang="en">Add-On: Topic Previews in the UCP</link>
 			<link type="contrib" href="contrib/addons/addon_bbcode.xml" lang="en">Add-On: Topic Preview BBcode tag</link>
 			<link type="contrib" href="contrib/addons/addon_preserve_line_breaks.xml" lang="en">Add-On: Preserve Line Breaks in Topic Previews</link>

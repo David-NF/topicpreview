@@ -45,6 +45,7 @@ Features
 * Polish
 * Romanian
 * Spanish
+* Swedish
 
 Awards
 ------
